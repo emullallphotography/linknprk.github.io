@@ -4,5 +4,8 @@ body{
 }
 .links{
   margin-left:90%;
+  color:black;
+}
+.links a{
   color:white;
 }
