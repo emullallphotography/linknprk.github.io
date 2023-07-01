@@ -7,11 +7,14 @@
     <h1>Contact</h1>
     <p>To contact the owner of this page you can email him at <a href="mailto:eTmullall@outlook.com">eTmullall@outlook.com</a></p>
     <form action="javascript:email()">
+      <p>Enter email subject:</p>
       <input type="text" id="mail" placeholder="Enter what you want to email me here if you don't want to click on the link value="">
+      <p>From:</p>p>
+      <input type="text" placeholder="Who sent this email?" id="from" value="">
     </form>
     <script>
       function email(){
-        window.location.assign("mailto:eTmullall@outlook.com?subject=" + document.getElementById("mail").value);
+        window.location.assign("mailto:eTmullall@outlook.com?subject=" + document.getElementById("mail").value +"?from=" + document.getElementById("from").value);
       }
     </script>
   </body>
