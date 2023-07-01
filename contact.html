@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linkin Park Fan Page - Contact </title>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <p>To contact the owner of this page you can email him at <a href="mailto:eTmullall@outlook.com">eTmullall@outlook.com</a></p>
+    <form action="javascript:email()">
+      <input type="text" id="mail" placeholder="Enter what you want to email me here if you don't want to click on the link value="">
+    </form>
+    <script>
+      function email(){
+        window.location.assign("mailto:eTmullall@outlook.com?subject=" + document.getElementById("mail").value);
+      }
+    </script>
+  </body>
+</html>
