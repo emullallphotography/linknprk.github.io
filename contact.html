@@ -9,12 +9,10 @@
     <form action="javascript:email()">
       <p>Enter email subject:</p>
       <input type="text" id="mail" placeholder="Enter what you want to email me here if you don't want to click on the link value="">
-      <p>From:</p>
-      <input type="text" placeholder="Who sent this email?" id="from" value="">
     </form>
     <script>
       function email(){
-        window.location.assign("mailto:eTmullall@outlook.com?subject=" + document.getElementById("mail").value +  " "  + document.getElementById("from").value);
+        window.location.assign("mailto:eTmullall@outlook.com?subject=" + document.getElementById("mail").value);
       }
     </script>
   </body>
