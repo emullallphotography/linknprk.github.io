@@ -3,6 +3,5 @@ body{
   color:white;
 }
 .links{
-  position:absolute;
-  left:100%:
+  margin-left:100%;
 }
