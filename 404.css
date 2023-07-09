@@ -29,3 +29,8 @@ h3{
   color:white;
   text-align:center;
 }
+footer{
+  position:absolute;
+  left:20%;
+  top:100%;
+}
