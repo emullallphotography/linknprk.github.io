@@ -1,0 +1,21 @@
+/*Links colour will be white as default*/ 
+.404 a{
+  color:white;
+}
+/* When the link is hovered its color will turn purple*/
+.404 a:hover{
+  color:purple;
+}
+/*Visited links will turn green*/
+.404 a:visited{
+  color:green;
+}
+/* Aligning h2s, h3 and paragraphs to center and coloring h2s, h3s and paragrapghs to the center
+.404 h2,h3,p{
+  text-align:center;
+  color:white;
+}
+body{
+  /* Changing the background colour to black*/
+  background-color:black;
+}
