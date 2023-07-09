@@ -10,7 +10,7 @@
 .404 a:visited{
   color:green;
 }
-/* Aligning h2s, h3 and paragraphs to center and coloring h2s, h3s and paragrapghs to the center
+/* Aligning h2s, h3 and paragraphs to center and coloring h2s, h3s and paragrapghs to the center*/
 .404 h2,h3,p{
   text-align:center;
   color:white;
