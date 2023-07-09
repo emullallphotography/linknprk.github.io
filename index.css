@@ -4,7 +4,7 @@ body{
 }
 .links{
   margin-left:90%;
-  color:black;
+  color:white;
 }
 .links a{
   color:white;
@@ -19,6 +19,7 @@ h2,p{
 .sites{
   position:absolute;
   top:100%;
+  color:white;
 }
 .about a{
   color:white;
