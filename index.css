@@ -27,3 +27,8 @@ h2,p{
   color:white;
   margin-left:20%;
 }
+.title{
+  position:absolute;
+  top:100%;
+  margin-left:20%;
+}
