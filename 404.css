@@ -1,6 +1,5 @@
 body{
   background-color:black;
-  height:40px;
 }
 p{
   color:white;
@@ -25,4 +24,8 @@ a:visited{
 }
 a:hover{
   color:lightblue;
+}
+h3{
+  color:white;
+  text-align:center;
 }
