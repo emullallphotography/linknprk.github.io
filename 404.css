@@ -1,1 +1,28 @@
-/* Some css*/
+body{
+  background-color:black;
+  height:40px;
+}
+p{
+  color:white;
+  text-align:center;
+}
+h2{
+  color:white;
+  text-align:center;
+}
+h4{
+  color:red;
+}
+.links{
+  color:white;
+  margin-left:90%;
+}
+.links a{
+  color:white;
+}
+a:visited{
+  color:green;
+}
+a:hover{
+  color:lightblue;
+}
