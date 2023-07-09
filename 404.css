@@ -19,3 +19,13 @@ body{
   /* Changing the background colour to black*/
   background-color:black;
 }
+/* Changing the links colour to white*/
+/* Changing the left margin to 90%*/
+.links{
+  color:black;
+  margin-left:90%;
+}
+/* Changing the class .links links colour to white*/
+.links a{
+  color:white;
+}
