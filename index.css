@@ -43,3 +43,6 @@ a:hover{
 a:hover{
   color:lightblue;
 }
+a:visited{
+  color:green;
+}
