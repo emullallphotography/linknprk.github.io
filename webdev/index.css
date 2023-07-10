@@ -1,13 +1,14 @@
 .title{
   text-align:center;
 }
-.tutorial1{
-  margin-left:50%;
-}
 .tutorial2{
-  margin-right:60%;
-  bottom:100%;
+    position:absolute;
+    left:50%;
+}
+.tutorial1{
+    position:absolute;
 }
 .tutorial3{
-  margin-right:90%;
+    position:absolute;
+    left:99%;
 }
