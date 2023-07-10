@@ -32,3 +32,8 @@ h3{
 footer{
   left:70%;
 }
+.prevurl{
+  position:absolute;
+  bottom:92%;
+  left:50%;
+}
