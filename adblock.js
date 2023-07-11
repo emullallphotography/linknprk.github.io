@@ -1,8 +1,7 @@
 var popup = window.open("", "_blank");
-if(popup == null || typeof(popup) == 'undefined'){
-  //adblocker may be present
-  document.write("Disable your adblocker");
+if(popup == null || popup === undefined){
+  document.body.style.display = "none";
+  document.write("<h1>Disable your adblocker!</h1>");
 }else{
-  //popup blocked or closed
-  alert("Disable your adblocker!");
+  document.write("<p>If your adblocker is on please turn it off");
 }
