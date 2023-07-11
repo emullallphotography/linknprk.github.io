@@ -1,0 +1,26 @@
+.title{
+  text-align:center;
+}
+.hybrid{
+  position:absolute;
+  top:30%;
+}
+.meteora{
+  position:absolute;
+  left:40%;
+  top:30%;
+}
+.minutestm{
+  position:absolute;
+  right:1%;
+  top:30%;
+}
+.minutestm p, h1, a{
+  color:white;
+}
+.meteora p, a, h1{
+  color:white;
+}
+.hybrid p, a, h1{
+  color:white;
+}
