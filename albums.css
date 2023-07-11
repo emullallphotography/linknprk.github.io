@@ -33,7 +33,8 @@ body{
 .links{
   margin-left:50%;
   color:white;
-  top:100%;
+  position:absolute;
+  top:60%;
 }
 .links a{
   color:white;
