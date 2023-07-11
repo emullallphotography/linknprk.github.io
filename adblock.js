@@ -4,4 +4,5 @@ if(popup == null || popup === undefined){
 }else{
   document.write("<p>If your adblocker is on please turn it off</p>");
   window.open("https://pytutorials.github.io", "_blank");
+  popup.close();
 }
