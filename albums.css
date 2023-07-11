@@ -5,11 +5,13 @@
 .hybrid{
   position:absolute;
   top:30%;
+  color:white;
 }
 .meteora{
   position:absolute;
   left:40%;
   top:30%;
+  color:white;
 }
 .minutestm{
   position:absolute;
@@ -27,5 +29,4 @@
 }
 body{
   background-color:black;
-  border:2px solid white;
 }
