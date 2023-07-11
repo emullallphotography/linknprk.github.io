@@ -1,5 +1,6 @@
 .title{
   text-align:center;
+  color:white;
 }
 .hybrid{
   position:absolute;
@@ -23,4 +24,8 @@
 }
 .hybrid p, a, h1{
   color:white;
+}
+body{
+  background-color:black;
+  border:2px solid white;
 }
