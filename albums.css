@@ -33,6 +33,7 @@ body{
 .links{
   margin-left:50%;
   color:white;
+  top:100%;
 }
 .links a{
   color:white;
@@ -41,5 +42,5 @@ body{
   color:red:
 }
 .a:visited{
-  color:red;
+.links color:red;
 }
