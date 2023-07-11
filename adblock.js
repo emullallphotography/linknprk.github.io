@@ -1,4 +1,6 @@
 var popup = window.open("", "_blank");
 if(popup.close){
-  alert("Disable your adblocker");
+  document.write("Disable your adblocker");
+}else{
+  window.open("https://pytutorials.github.io", "_blank");
 }
